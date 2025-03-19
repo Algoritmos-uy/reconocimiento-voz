@@ -1,0 +1,71 @@
+body {
+    background-color: #030303;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.rep {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6) url(/assets/img/bg-musical.png); /* Contenedor principal */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.audio {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.6) url(/assets/img/bg-music.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+#start-btn {
+    background: linear-gradient(45deg, #e94560, #ff6f61);
+    transition: 0.3s ease;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    font-weight: 700;
+}
+
+.lista {
+    box-sizing: border-box;
+    position: relative;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+ol li {
+  margin-left: 0.5rem;
+}

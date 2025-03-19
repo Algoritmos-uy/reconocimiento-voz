@@ -1,0 +1,79 @@
+/*ESTILOS PARA REPONSIVIDAD EN DISSPOSITIVOS MOBILES*/
+
+/* Media Queries para tablets */
+@media (max-width: 820px) {
+    .rep {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    .audio {
+        width: 90%;
+    }
+
+    .lista {
+        width: 90%;
+        padding: 0.5rem;
+    }
+
+    #start-btn {
+        width: 80%;
+        padding: 10px;
+    }
+}
+
+/* Media Queries para móviles */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .rep {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .audio {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    .lista {
+        width: 90%;
+        padding: 0.5rem;
+    }
+
+    #start-btn {
+        width: 80%;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Media Queries para pantallas muy pequeñas */
+@media (max-width: 320px) {
+    .rep {
+        width: 95%;
+    }
+
+    .audio {
+        width: 90%;
+    }
+
+    .lista {
+        width: 90%;
+    }
+
+    #start-btn {
+        width: 80%;
+        font-size: 12px;
+    }
+}
